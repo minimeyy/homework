@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: "標楷體";
+	background-color:#C7C1DB
+}
+-->
+</style>
+    <style>
+        body {
+            background-color: #F0EEFA;
+        }
+    .style2 {
+	font-family: "標楷體";
+	font-weight: bold;
+	font-size: medium;
+}
+    </style>
+	
+	<style>
+	 /* 副标题样式 */
+        .subtitle {
+            font-size: 24px;
+            color: #666; /* 设置副标题文字颜色 */
+            text-align: center; /* 文字居中 */
+        }
+	</style>
+</head>
+
+<body>
+<div align="center" class="style1">彰化探奇 漫遊彰化</div>
+<body>
+    <center>
+      <p><span>|</span>
+        <a href="file:///C:/%E5%B8%B8%E6%98%A5%E8%97%A4%E4%BA%92%E5%8B%95%E6%95%99%E5%AD%B8%E9%9B%BB%E8%85%A6%E4%B8%8B%E8%BC%89%E7%89%88/Untitled-1.html">
+        <input type="button" name="button1" id="button1" value="歷史背景" style="background-color: #A5BECF; width: 100px; height: 50px;color: #4440B3; border: none; font-size:24px; border-radius: 40%;"  /></a>
+           <span>|</span>
+        <a href="file:///C:/%E5%B8%B8%E6%98%A5%E8%97%A4%E4%BA%92%E5%8B%95%E6%95%99%E5%AD%B8%E9%9B%BB%E8%85%A6%E4%B8%8B%E8%BC%89%E7%89%88/Untitled-2.html">
+        <input type="button" name="button2" id="button2" value="特色美食" style="background-color: #A5BECF; width: 100px; height: 50px;color: #4440B3; border: none; font-size:24px; border-radius: 40%;" /></a>
+           <span>|</span>
+        <a href="file:///C:/%E5%B8%B8%E6%98%A5%E8%97%A4%E4%BA%92%E5%8B%95%E6%95%99%E5%AD%B8%E9%9B%BB%E8%85%A6%E4%B8%8B%E8%BC%89%E7%89%88/Untitled-3.html">
+        <input type="button" name="button3" id="button3" value="景點探索" style="background-color: #A5BECF; width: 100px; height: 50px; color: #4440B3; border: none; font-size:24px; border-radius: 40%;" /></a>
+           <span>|</span>
+        <a href="file:///C:/%E5%B8%B8%E6%98%A5%E8%97%A4%E4%BA%92%E5%8B%95%E6%95%99%E5%AD%B8%E9%9B%BB%E8%85%A6%E4%B8%8B%E8%BC%89%E7%89%88/Untitled-4.html">
+        <input type="button" name="button4" id="button4" value="意見回饋" style="background-color: #A5BECF; width: 100px; height: 50px; color: #4440B3; border: none; font-size:24px; border-radius: 40%;" /></a>
+           <span>|</span>
+
+</body>
+<center>
+<p>探索彰化，發現隱藏的寶藏</p>
+</center>
+<div align="center" id="imageContainer">
+    <img src="../Program Files (x86)/彰化.png" width="1010" height="800" />
+</div>
+
+
+<script type="text/javascript">
+		var images = ["../Program Files (x86)/彰化.png", "../Program Files (x86)/彰化2.png", "../Program Files (x86)/彰化3.png", "../Program Files (x86)/彰化4.png", "../Program Files (x86)/彰化5.png", "../Program Files (x86)/彰化6.png", "../Program Files (x86)/彰化7.png"]; 
+    var currentIndex = 0;
+    var imageElement = document.getElementById("imageContainer").getElementsByTagName("img")[0];
+
+    function changeImage() {
+        imageElement.src = images[currentIndex];
+        currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    setInterval(changeImage, 2000);
+</script>
+</body>
+
+
+</html>
